@@ -13,6 +13,7 @@ Neural Network architecture:
   * Hidden Layer_2: Size = (64, 32), activation = ReLU
   * Output Layer: Size = (32,10), activation = ReLU
 * Architecture is inspired from Mike X Cohen sir.
+
 Final Observations:
 
 * The model got a test accuracy of 84 % when relu activation function is used in the hidden layer, with the train accuracy being 100%. Nummber of batches = 16
