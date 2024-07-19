@@ -13,3 +13,4 @@ Final Observations:
 * The model got a test accuracy of 86% percent when prelu, tanh, and elu activation functions in the hidden layer, with batch-size = 16
 * It has been observed that using 16 batches, the training accuracy was 100% while test accuracy was 84% while the max test accuracy is 86%, so this means the model was memorizing the training data and is not able to generalize and work on new test data.
 * So, by changing the batch-size to 32, the accuracy increased to 92% with 150 epochs
+* My model achieved a test accuracy of 92% with 150 epochs and a batch size of 32, while the sir's model achieved a 90% accuracy with the 100 epochs and a batch size of 20.
