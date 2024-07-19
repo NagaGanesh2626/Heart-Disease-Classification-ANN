@@ -6,8 +6,8 @@ Understanding the DataSet:
 
 * The Dataset has total 297 feature examples with 13 features and one target column with which the model can be trained.
 * The model is multiclass classification (4) but to simplify the process of classifying and for academical purposes it has been converted to a binary classification problem. ( 0-2 : 0 & 2-4: 1).
+
 Neural Network architecture:
-* 3 Layers:
 * * Input Layer: Size = (13,32), activation = ReLU
   * Hidden Layer_1: Size = (32,64), activation = ReLU
   * Hidden Layer_2: Size = (64, 32), activation = ReLU
