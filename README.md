@@ -12,7 +12,7 @@ Neural Network architecture:
   * Hidden Layer_1: Size = (32,64), activation = ReLU
   * Hidden Layer_2: Size = (64, 10), activation = ReLU
   * Output Layer: Size = (10,1), activation = Linear
-* Loss Function: Mean Squared Error, Optimizer = Adam
+* Loss Function: BCEWithLogitsLoss, Optimizer = Adam
 * Architecture is inspired from Mike X Cohen sir.
 
 Final Observations:
